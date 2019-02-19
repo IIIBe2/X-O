@@ -34,7 +34,8 @@ void algoritm(int numplayer) {
 		char k;
 		cin >> k;
 		if (k == 'y') {
-			system("start путь к файлу ");  //путь к файлу
+			system("start x_o.exe");  //путь к файлу
+			exit(1);
 		}
 		else {exit(1);}
 		system("pause");
@@ -42,6 +43,7 @@ void algoritm(int numplayer) {
 }
 
 void tabl() {
+	system("cls");
 	cout << cell_1 << " | " << cell_2 << " | " << cell_3 << endl;
 	cout << "----------" << endl;
 	cout << cell_4 << " | " << cell_5 << " | " << cell_6 << endl;
